@@ -3,7 +3,7 @@ function FD
 faceDetector = vision.CascadeObjectDetector();
 
 % Read a video frame and run the face detector.
-videoFileReader = vision.VideoFileReader('AR.jpg');
+videoFileReader = vision.VideoFileReader('../images/AR.jpg');
 videoFrame      = step(videoFileReader);
 bbox            = step(faceDetector, videoFrame);
 

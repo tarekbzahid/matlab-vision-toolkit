@@ -1,8 +1,8 @@
 function found=findCharacter()
-text=imread('text.png');
+text=imread('../images/text.png');
 text=im2double(text(:,:,1));%take one from rgb
 copy=text;                  %and copy one for final show
-char=imread('A.png');%can be changed to B or C
+char=imread('../images/A.png');%can be changed to B or C
 char=im2double(char(:,:,1));%take one from rgb
 [textHeight,textWidth]=size(text);
 [charHeight,charWidth]=size(char);

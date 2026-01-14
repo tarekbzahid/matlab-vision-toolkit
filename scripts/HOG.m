@@ -1,6 +1,6 @@
 
-I1 = imread('1.jpg');
-I2= imread('control.jpg');
+I1 = imread('../images/1.jpg');
+I2= imread('../images/control.jpg');
 A = rgb2gray(I1);
 B = rgb2gray(I2);
 corners1 = detectSURFFeatures(A);

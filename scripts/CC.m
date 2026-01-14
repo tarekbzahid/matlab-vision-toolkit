@@ -1,6 +1,6 @@
 function CC
-ctr=rgb2gray(imread('A.png')); %control image
-s1=rgb2gray(imread('abc.png'));
+ctr=rgb2gray(imread('../images/A.png')); %control image
+s1=rgb2gray(imread('../images/abc.png'));
 % s2=rgb2gray(imread('c2.jpg'));
 % s4=rgb2gray(imread('c4.jpg'));
 % s3=rgb2gray(imread('c3.jpg'));
