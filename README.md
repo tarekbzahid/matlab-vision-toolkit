@@ -1,4 +1,4 @@
-# MATLAB Image Processing Toolkit
+# MATLAB Vision Toolkit
 
 ![Image Processing Demo](./images/AR.jpg)
 
@@ -62,7 +62,7 @@ Alphabetrecognition
 ## 📁 Project Structure
 
 ```
-matlab-image-processing/
+matlab-vision-toolkit/
 ├── scripts/              # MATLAB script files
 │   ├── FD.m             # Face detection
 │   ├── findCharacter.m  # Character recognition
@@ -162,3 +162,4 @@ This repository includes implementations based on computer vision research. See 
 **Note**: This toolkit is designed for educational purposes and research. For production applications, consider optimization and error handling enhancements.
 
 **Last Updated**: January 2026
+
